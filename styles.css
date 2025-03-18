@@ -1,0 +1,43 @@
+
+.classedefou{
+    font-size: 5em;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+.autreclasse{
+    color: aquamarine;
+    font-size: 8em;
+    text-decoration:overline;
+}
+body{ 
+    background-color: rgb(128, 128, 128);
+    height: 100000px;
+}
+#exemple{
+    background-color: bisque;
+}
+.relative{
+    position: relative;
+    left: 60px;
+    top: 2000px;
+}
+.fixed{
+    position: fixed;
+    left: 500px;
+    top: 100px;
+}
+button{
+    padding: 5px 10px 1px 4px;
+    margin: 60px;
+    background-color: rosybrown;
+    border: dotted 5px violet;
+    border-radius: 5%;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(255, 0, 179);
+    content: 50px;
+    font-size: x-large;
+    color: blueviolet;
+    border: dotted 10px yellow ;
